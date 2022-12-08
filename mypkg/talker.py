@@ -9,9 +9,8 @@ n = 0
 
 def cb():
     global n
-    msg = Perso()
-    msg.name = "相ノ谷幸明"
-    msg.age = n
+    msg = Int16()
+    msg.data = n
     pub.publish(msg)
     n += 1
 
