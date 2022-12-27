@@ -9,10 +9,10 @@ n = 0
 
 def cb():
     global n  
-        msg = Int16() 
-            msg.data = n
-                pub.publish(msg)    
-                        n += 1
+    msg = Int16() 
+    msg.data = n
+    pub.publish(msg)    
+    n += 1
                             
-                            node.create_timer(0.5, cb)
-                            rclpy.spin(node)         
+node.create_timer(0.5, cb)
+rclpy.spin(node)         
