@@ -8,9 +8,9 @@
     
 ## 主な機能
   * talker.py
-   * 0.5秒ずつ数値をカウントし、listener.pyに数値を送信します。
-   * listener.py
-   * talker.pyから送信された数値を表示します。
+    * 0.5秒ずつ数値をカウントし、listener.pyに数値を送信します。
+  * listener.py
+    * talker.pyから送信された数値を表示します。
     
 ## 使用方法
 ```
