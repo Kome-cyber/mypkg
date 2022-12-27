@@ -2,14 +2,14 @@
 ![test](https://github.com/Kome-cyber/mypkg/actions/workflows/test.yml/badge.svg)
   * このリポジトリは、ロボットシステム学の講義で学習した、ROS2のパッケージです。
   * リポジトリ内には、二つのROS2パッケージ
-　　* talker.py
+    * talker.py
     * listener.py
 が存在します。
     
 ## 主な機能
   * talker.py
    * 0.5秒ずつ数値をカウントし、listener.pyに数値を送信します。
-　* listener.py
+   * listener.py
    * talker.pyから送信された数値を表示します。
     
 ## 使用方法
