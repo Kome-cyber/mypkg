@@ -1,16 +1,16 @@
 # mypkg
 ![test](https://github.com/Kome-cyber/mypkg/actions/workflows/test.yml/badge.svg)
   * このリポジトリは、ロボットシステム学の講義で学習した、ROS2のパッケージです。
-  * リポジトリ内には、二つのROS2パッケージ
+  * リポジトリ内には、二つのノード
     * talker.py
     * listener.py
 が存在します。
     
-## 主な機能
+## ノードの主な機能
   * talker.py
-    * 0.5秒ずつ数値をカウントし、listener.pyに数値を送信します。
+    * このノードは、パブリッシャーの機能を持ち、countupというトピックにカウントした数値を送信します。
   * listener.py
-    * talker.pyから送信された数値を表示します。
+    * このノードは、サブスクライバーの機能を持ち、パブリッシャーから送信されたcountupからカウントした数値を表示します。
     
 ## 使用方法
 ```
